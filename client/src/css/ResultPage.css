@@ -1,0 +1,56 @@
+.map-container {
+  height: 100vh;
+  flex-grow: 1; /* so that the map extends and takes up the entire right siden of */
+} 
+  
+.sidebar {
+background-color: rgb(35 55 75 / 90%);
+color: #fff;
+padding: 6px 12px;
+font-family: monospace;
+z-index: 1;
+position: absolute;
+top: 0;
+left: 0;
+margin: 12px;
+border-radius: 4px;
+}
+
+.content-container {
+display: flex;
+flex-direction: row;
+width: 50%;
+/* flex: 1; */
+}
+
+.flex-container {
+display: flex;
+/*TODO: change when size of screen gets smaller*/
+flex-direction: row;
+/* margin-top: 50px; */
+padding-left: 20px;
+padding-right: 20px;
+/* flex: 1; */
+} 
+
+.filter { 
+flex: 1;
+}
+
+.filter .grid-filter h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.filter .grid-filter p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.search-result {
+flex: 2;
+padding-left: 10px;
+padding-right: 10px;
+} 

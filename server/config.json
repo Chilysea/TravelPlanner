@@ -1,0 +1,9 @@
+{
+    "rds_host": "cis550project.crg0cu0ouruq.us-east-2.rds.amazonaws.com",
+    "rds_port": "3306",
+    "rds_user": "admin",
+    "rds_password": "CIS550Group52",
+    "rds_db": "AIRBNB",
+    "server_host": "localhost",
+    "server_port": "8080"
+  }
